@@ -1,7 +1,6 @@
 // footer.js
 
 document.addEventListener("DOMContentLoaded", function () {
-  // HTML код футера
   const footerHTML = `
             <section class="footer">
                 <ul>
