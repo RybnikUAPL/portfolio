@@ -536,10 +536,34 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
-  
 }
 
-.footer { padding-bottom: auto; }
+.footer {
+  background: var(--border-gradient-onyx); /* Цвет фона футера */
+  border-radius: 14px;
+  text-align: center;
+  color: var(--light-green); /* Цвет текста футера */
+  font-size: var(--fs-4);
+  font-weight: var(--fw-); /* Убедитесь, что у вас задано значение переменной --fw- */
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.footer-item {
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.footer-content-box { text-align: center; }
+
+
 .footer-item-text {
   text-align: center;
   color: var(--light-green);

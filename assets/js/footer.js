@@ -3,9 +3,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const footerHTML = `
             <section class="footer">
-                <ul>
-                    <li class="service-item">
-                        <div class="service-content-box">
+               <ul class="footer-list">
+                    <li class="footer-item">
+                        <div class="footer-content-box">
                             <p class="footer-item-text">
                                 Copyright &copy 2024 Soloviov Anatolii. All rights reserved
                             </p>
@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "footer-location-2",
     "footer-location-3",
     "footer-location-4",
-
   ];
 
   footerLocations.forEach((locationId) => {
