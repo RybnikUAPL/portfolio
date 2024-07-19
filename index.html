@@ -485,41 +485,6 @@
                 <p class="project-category">Web design</p>
               </a>
             </li>
-
-            <!--            
-            <li class="project-item active" data-filter-item data-category="web design">
-              <a href="https://rybnikuapl.github.io/react-calc/" title="Калькулятор">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <i class="fa-regular fa-eye"></i>
-                  </div>
-
-                  <img src="./assets/images/...png" alt="orizon" loading="lazy" />
-                </figure>
-
-                <h3 class="project-title">Calculator</h3>
-
-                <p class="project-category">Web design</p>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="music">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <i class="fa-regular fa-eye"></i>
-                  </div>
-
-                  <img src="./assets/images/...jpg" alt="fundo" loading="lazy" />
-                </figure>
-
-                <h3 class="project-title">Song 1</h3>
-
-                <p class="project-category">Music</p>
-              </a>
-            </li>
--->
-
           </ul>
         </section>
 
@@ -539,24 +504,27 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102350.35220241918!2d18.461733799999998!3d50.0970596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47114b0e43d92b2d%3A0x1e3d618de394d2ef!2sRybnik%2C%20Poland!5e0!3m2!1sen!2sbd!4v1647608789441!5m2"
-              width="400" height="300" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102350.35220241918!2d18.461733799999998!3d50.0970596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47114b0e43d92b2d%3A0x1e3d618de394d2ef!2sRybnik%2C%20Poland!5e0!3m2!1sen!2sbd!4v1647608789441!5m2
+              width=" 400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
 
         <section class="contact-form">
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required
+            <input type="hidden" name="access_key" value="c7f033bb-41d9-4ed9-b181-afb4bc978d2c">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Enter You Name..." autocomplete="off" required
+                data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="You Email address" autocomplete="off"
                 data-form-input />
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="Please Your Message" autocomplete="off" data-form-input></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <i class="fa-regular fa-paper-plane"></i>
@@ -577,6 +545,7 @@
   -->
   <script src="./assets/js/script.js"></script>
   <script src="./assets/js/footer.js"></script>
+  <title>Contact Form</title>
 
 
   <!--
