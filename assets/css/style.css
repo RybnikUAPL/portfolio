@@ -8,7 +8,7 @@
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
+    hsl(240, 81%, 14%) 3%, 
     hsl(0, 0%, 19%) 97%
   );
   --bg-gradient-jet: linear-gradient(
@@ -43,6 +43,7 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
+  --eerie-green-3: hsl(160, 80%, 5%);
   --smoky-green: hsl(160, 60%, 18%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
@@ -150,7 +151,7 @@ body { background: var(--smoky-green); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--eerie-green-3);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -512,15 +513,6 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
-}
-
-.service-item::before {
-  content: "";
-  position: absolute;
-  inset: 1px;
-  background: var(--bg-gradient-jet);
-  border-radius: inherit;
-  z-index: -1;
 }
 
 .service-icon-box { margin-bottom: 10px; }
