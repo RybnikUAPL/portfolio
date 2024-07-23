@@ -44,11 +44,11 @@
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
   --eerie-green-3: hsl(160, 80%, 5%);
-  --smoky-green: hsl(160, 60%, 18%);
+  --smoky-green: hsl(160, 60%, 10%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --light-green: hsl(135, 90%, 74%);
-  --green-green: hsl(128, 76%, 36%);
+  --green-green: hsl(127, 78%, 9%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -443,7 +443,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(139, 94%, 6%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
