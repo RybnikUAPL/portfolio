@@ -48,7 +48,7 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --light-green: hsl(135, 90%, 74%);
-  --green-green: hsl(127, 78%, 9%);
+  --green-green: hsl(127, 76%, 33%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -537,12 +537,13 @@ main {
   text-align: center;
   color: var(--light-green); /* Цвет текста футера */
   font-size: var(--fs-4);
-  font-weight: var(--fw-); /* Убедитесь, что у вас задано значение переменной --fw- */
+  font-weight: var(--fw-); 
 }
 
 .footer-list {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto;
   gap: 20px;
 }
 
