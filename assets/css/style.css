@@ -292,8 +292,6 @@ main {
 
 
 
-
-
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
@@ -544,6 +542,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  align-content: end;
   gap: 20px;
 }
 
@@ -1701,7 +1700,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: max-content;
     margin: auto;
   }
-
 
 
   /**
